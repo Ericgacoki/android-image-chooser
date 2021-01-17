@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Android W1 2021"
