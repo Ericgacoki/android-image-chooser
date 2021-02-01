@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fmWhatsApp"
+        android:title="Fm WhatsApp"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/restartApp"
+        android:title="Restart App"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/messageANumber"
+        android:title="Message a number"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/newGroup"
+        android:title="New group"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/newBroadcast"
+        android:title="New broadcast"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/whatsAppWeb"
+        android:title="WhatsApp web"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/starredMessages"
+        android:title="Starred messages"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
