@@ -6,6 +6,9 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.ericg.androidLearning.databinding.ActivityMainBinding
@@ -45,5 +48,30 @@ class MainActivity : AppCompatActivity() {
             mainActivityBinding!!.imageView.clipToOutline = true
 
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.fmWhatsApp -> {
+                toast("Clicked Fm WhatsApp")
+            }
+            R.id.restartApp -> {
+                toast("clicked Restart")
+            }
+            R.id.messageANumber -> {
+                toast("clicked Restart")
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun toast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
