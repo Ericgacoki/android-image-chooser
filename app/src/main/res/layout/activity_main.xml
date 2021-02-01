@@ -27,6 +27,7 @@
         <Button
             android:id="@+id/btnSelectImage"
             android:layout_width="0dp"
+            android:layout_margin="0dp"
             android:layout_height="wrap_content"
             android:text="@string/select_image"
             app:layout_constraintBottom_toBottomOf="parent"
