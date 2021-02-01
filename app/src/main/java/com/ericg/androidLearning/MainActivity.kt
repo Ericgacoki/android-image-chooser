@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                 toast("Clicked Fm WhatsApp")
             }
             R.id.restartApp -> {
-                toast("clicked Restart")
+                toast("Clicked Restart")
             }
             R.id.messageANumber -> {
                 toast("clicked Restart")
