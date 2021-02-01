@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                 toast("Clicked Restart")
             }
             R.id.messageANumber -> {
-                toast("clicked Restart")
+                toast("Clicked Restart")
             }
         }
 
