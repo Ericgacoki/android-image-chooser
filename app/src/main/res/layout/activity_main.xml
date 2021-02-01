@@ -29,7 +29,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/select_image"
-            android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView"
