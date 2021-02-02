@@ -21,7 +21,6 @@
         android:id="@+id/newGroup"
         android:title="New group"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/newBroadcast"
