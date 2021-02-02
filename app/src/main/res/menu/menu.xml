@@ -26,7 +26,6 @@
         android:id="@+id/newBroadcast"
         android:title="New broadcast"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/whatsAppWeb"
