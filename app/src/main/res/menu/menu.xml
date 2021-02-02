@@ -36,7 +36,6 @@
         android:id="@+id/starredMessages"
         android:title="Starred messages"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/settings"
