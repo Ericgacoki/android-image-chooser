@@ -16,7 +16,6 @@
         android:id="@+id/messageANumber"
         android:title="Message a number"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/newGroup"
