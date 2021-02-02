@@ -5,7 +5,6 @@
         android:id="@+id/fmWhatsApp"
         android:title="Fm WhatsApp"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/restartApp"
