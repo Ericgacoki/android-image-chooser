@@ -44,8 +44,10 @@ class MainActivity : AppCompatActivity() {
         if (resultCode == Activity.RESULT_OK && requestCode == 0 && data != null) {
             uri = data.data
             val bitMap = MediaStore.Images.Media.getBitmap(contentResolver, uri)
-            mainActivityBinding!!.imageView.setImageBitmap(bitMap)
-            mainActivityBinding!!.imageView.clipToOutline = true
+            mainActivityBinding!!.imageView.apply{
+                setImageBitmap(bitMap)
+                clipToOutline = true
+            }
         }
     }
 
