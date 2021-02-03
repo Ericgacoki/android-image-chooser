@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
     private fun selectImage() {
         val intent: Intent = Intent(Intent.ACTION_GET_CONTENT).apply {
             type = "image/*"
+            startActivityForResult(intent, 0)
         }
-        startActivityForResult(intent, 0)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
