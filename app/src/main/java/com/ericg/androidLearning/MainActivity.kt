@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun selectImage() {
         val intent: Intent = Intent(Intent.ACTION_GET_CONTENT).apply {
-            this.type = "image/*"
+            type = "image/*"
         }
         startActivityForResult(intent, 0)
     }
