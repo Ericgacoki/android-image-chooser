@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
             val bitMap = MediaStore.Images.Media.getBitmap(contentResolver, uri)
             mainActivityBinding!!.imageView.setImageBitmap(bitMap)
             mainActivityBinding!!.imageView.clipToOutline = true
-
         }
     }
 
