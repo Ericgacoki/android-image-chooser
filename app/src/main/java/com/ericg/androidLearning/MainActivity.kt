@@ -64,9 +64,11 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.restartApp -> {
                 toast("Clicked Restart")
+                // Navigate
             }
             R.id.messageANumber -> {
                 toast("Clicked Restart")
+                // Navigate
             }
         }
         return super.onOptionsItemSelected(item)
