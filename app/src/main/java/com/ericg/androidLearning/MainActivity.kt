@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.fmWhatsApp -> {
                 toast("Clicked Fm WhatsApp")
+                // Navigate
             }
             R.id.restartApp -> {
                 toast("Clicked Restart")
