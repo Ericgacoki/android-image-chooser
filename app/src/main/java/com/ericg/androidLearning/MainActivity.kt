@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     private var uri: Uri? = null
     private var mainActivityBinding: ActivityMainBinding? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
