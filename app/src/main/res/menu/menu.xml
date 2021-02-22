@@ -30,7 +30,6 @@
         android:id="@+id/whatsAppWeb"
         android:title="WhatsApp web"
         app:showAsAction="never">
-
     </item>
     <item
         android:id="@+id/starredMessages"
