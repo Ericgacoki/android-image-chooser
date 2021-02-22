@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun toast(message: String) {
+    private fun toast(message: String? = "") {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
