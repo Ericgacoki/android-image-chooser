@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         Intent(Intent.ACTION_GET_CONTENT).apply {
             type = "image/*"
             startActivityForResult(this, 0)
-
         }
     }
 
