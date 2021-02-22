@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         if (resultCode == Activity.RESULT_OK && requestCode == 0 && data != null) {
             uri = data.data
             val bitMap = MediaStore.Images.Media.getBitmap(contentResolver, uri)
-            mainActivityBinding!!.imageView.apply{
+            mainActivityBinding!!.imageView.apply {
                 setImageBitmap(bitMap)
                 clipToOutline = true
             }
@@ -69,7 +69,6 @@ class MainActivity : AppCompatActivity() {
                 toast("Clicked Restart")
             }
         }
-
         return super.onOptionsItemSelected(item)
     }
 
