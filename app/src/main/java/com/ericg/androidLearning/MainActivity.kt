@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         mainActivityBinding = DB.setContentView(this, R.layout.activity_main)
-
         mainActivityBinding?.btnSelectImage?.setOnClickListener {
             selectImage()
         }
