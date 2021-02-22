@@ -1,4 +1,4 @@
-package com.ericg.androidLearning
+package com.ericg.androidLearning.view
 
 import android.app.Activity
 import android.content.Intent
@@ -11,6 +11,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
+import com.ericg.androidLearning.R
 import com.ericg.androidLearning.databinding.ActivityMainBinding
 import androidx.databinding.DataBindingUtil as DB
 
