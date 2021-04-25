@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity(), View.OnTouchListener {
                 Log.d(
                     TAG,
                     "mode=DRAG"
-                ) // write to LogCat
+                ) // write to LogCat 
                 mode = DRAG
             }
             MotionEvent.ACTION_UP // first finger lifted
